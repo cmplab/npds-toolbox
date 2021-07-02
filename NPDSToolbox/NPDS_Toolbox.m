@@ -487,7 +487,7 @@ function Help_Callback(hObject, eventdata, handles)
 
 % --------------------------------------------------------------------
 function Document_Callback(hObject, eventdata, handles)
-web('http://cmplab.sbu.ac.ir/');
+web('https://npds.readthedocs.io/');
 % hObject    handle to Document (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -519,7 +519,7 @@ web('mailto:cmplab@sbu.ac.ir');
 % --------------------------------------------------------------------
 function Web_Callback(hObject, eventdata, handles)
 % hObject    handle to Web (see GCBO)
-web('http://cmplab.sbu.ac.ir/');
+web('https://github.com/cmplab/npds-toolbox');
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
