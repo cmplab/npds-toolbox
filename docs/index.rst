@@ -42,7 +42,7 @@ Quick Links
 ------
 Documentation: https://npds.readthedocs.io
 
-Mailing list: https://groups.google.com/forum/#!forum/npds-users
+Mailing list: https://groups.google.com/g/npds-users
 
 Source code: https://github.com/cmplab/npds-toolbox
 
@@ -62,7 +62,7 @@ License:  NPDS is released under the BSD 3-Clause license.
 
 Version:  1.0
 
-Date:  July 10, 2021
+Date:  July 2, 2021
 
 Contributors
 ------
