@@ -24,7 +24,7 @@ Synchronization plays a very significant role in brain functions such as percept
 
 .. only:: html
 
-    .. figure:: gifpages.gif
+    .. figure:: ./Pictures/gifpages.gif
         :scale: 80 %
         :align: center
         
