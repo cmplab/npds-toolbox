@@ -37,7 +37,7 @@ master_doc = 'index'
 source_suffix = '.rst'
 exclude_patterns = ['_build']
 # The full version, including alpha/beta/rc tags.
-release = ' Version 0.1.0'
+release = ' Version 1.0'
 #try:
  #   release = subprocess.check_output(
   #          ('git', 'describe', '--tags', '--always', '--abbrev=0'))
@@ -98,8 +98,8 @@ html_title = "NPDS Toolbox"
 html_short_title = ""
 htmlhelp_basename = 'sfs-doc'
 
-html_logo = 'photo_2021-06-14_10-19-07.jpg'
-html_favicon = 'photo_2021-06-14_10-19-07.jpg'
+html_logo = 'NPDS-logo.svg'
+html_favicon = 'NPDS-logo.svg'
 # -- LATEX ---------------------------------------------------------------
 # Workaround to add some brackets around the release for PDF output
 release = '({})'.format(release)
@@ -157,4 +157,4 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = 'photo_2021-06-14_10-19-07.jpg'
+latex_logo = 'NPDS-logo.svg'
