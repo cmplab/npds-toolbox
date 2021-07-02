@@ -1,0 +1,425 @@
+@article{Monga2018_1,
+	author = {B. Monga and G. Froyland and J. Moehlis},
+	title ={Synchronizing and Desynchronizing Neural Populations through Phase Distribution Control},
+	journal={2018 Annual American Control Conference (ACC)}, 
+	pages = {2808--2813},
+	year = {2018}
+}
+
+@article{Monga2019_1,
+	author = {B. Monga and J. Moehlis},
+	title ={Phase distribution control of a population of oscillators },
+	journal={Physica D.}, 
+	volume = {398},
+	pages = {115--129},
+	year = {2019}
+}
+
+@article{Monga2018_2,
+	author = {B. Monga and D. Wilson and T. Matchen and J. Moehlis},
+	title ={Phase reduction and phase-based optimal control for biological systems: a tutorial},
+	journal={Biol Cybern.}, 
+	volume = {113},
+	pages = {11--46},
+	year = {2018}
+}
+
+@article{Monga2019_2,
+	title={Optimal phase control of biological oscillators using augmented phase reduction },
+	author={B. Monga and J. Moehlis},
+	journal={ Biol Cybern.},
+	volume={113},
+	number={1},
+	pages={161--178},
+	year={2019}
+}
+
+@article{Brown2004,
+	author = {E. Brown and J. Mohelis and P. Holmes},
+	title ={On the phase reduction and response dynamics of neural oscillator populations},
+	journal={Neural Comput.}, 
+	volume = {16},
+	number={4},
+	pages = {673--715},
+	year = {2004}
+}
+
+@article{Moayeri2021,
+	author = {M. M. Moayeri and J. A. Rad and K. Parand},
+	title ={Desynchronization of stochastically synchronized neural populations through phase distribution control: a numerical simulation approach},
+	journal={Nonlinear Dyn.}, 
+	volume = {104},
+	pages = {2363--2388},
+	year = {2021}
+}
+
+@article{Wilson2016,
+	author = {D. Wilson and J. Moehlis},
+	title ={Isostable reduction with applications to time-dependent partial differential equations},
+	journal={Phys Rev E.}, 
+	volume = {94},
+	pages = {012211},
+	year = {2016}
+}
+
+@book{Sauer,
+	author = {T. Sauer},
+	title ={Numerical Analysis},
+	publisher = {Pearson Education }, 
+	year = {2012}
+}
+
+@article{Fornberg1988,
+	author = {B. Fornberg},
+	title ={Generation of Finite Difference Formulas on Arbitrarily Spaced Grids},
+	journal={Math. Comput.}, 
+	volume = {51},
+	number={184},
+	pages = {699--706},
+	year = {1988}
+}
+
+@article{Parand2019_1,
+	author = {K. Parand and M. M. Moayeri and S. Latifi and J. A. Rad},
+	title ={Numerical study of a multidimensional dynamic quantum model arising in cognitive psychology especially in decision making},
+	journal={Eur Phys J Plus.}, 
+	volume = {134},
+	number={109},
+	year = {2019}
+}
+
+@article{Mohammadi2020,
+	author = {V. Mohammadi and M. Dehghan},
+	title ={Generalized moving least squares approximation for the solution of local and non-local models of cancer cell invasion of tissue under the effect of adhesion in one- and two-dimensional spaces},
+	journal={Comput Biol Med.}, 
+	doi={https://doi.org/10.1016/j.compbiomed.2020.103803},
+	year = {2020}
+}
+
+@article{Kumar2020,
+	author = {S. Kumar and A. Ahmadian and R. Kumar and D. Kumar and J. Singh and D. Baleanu and M. Salimi },
+	title ={An efcient numerical method for fractional {SIR} epidemic model of infectious disease by using {B}ernstein wavelets},
+	journal={Mathematics.}, 
+	volume = {8},
+	number={4},
+	pages = {558},
+	year = {2020}
+}
+
+@article{Grag2010,
+	author = {D. Grag and M. Patterson and W. W. Hager and A. V. Rao and D. A. Benson and G. T. Huntington},
+	title ={A unified framework for the numerical solution of optimal control problems using pseudospectral methods },
+	journal={Automatica.}, 
+	volume = {46},
+	number={11},
+	pages = {1843--1851},
+	year = {2010}
+}
+
+@article{Hadian2019,
+	author = {A. Hadian-Rasanan and N. Bajelan and K. Parand and J. A. Rad},
+	title ={Simulation of nonlinear fractional dynamics arising in the modeling of cognitive decision making using a new fractional neural network},
+	journal={Math Meth Appl Sci.}, 
+	volume = {43},
+	number={3},
+	pages = {1437--1466},
+	year = {2019}
+}
+
+@article{Delkhosh2019,
+	author = {M. Delkhosh and K. Parand },
+	title ={Generalized pseudospectral method: {T}heory and applications },
+	journal={J Comput Sci.}, 
+	volume = {34},
+	pages = {11--32},
+	year = {2019}
+}
+
+@article{Parand2018_1,
+	author = {K. Parand and S. Latifi and M. Delkhosh and M. M. Moayeri},
+	title ={Generalized {L}agrangian {J}acobi {G}auss collocation method for solving unsteady isothermal gas through a micro-nano porous medium},
+	journal={Eur Phys J Plus.}, 
+	volume = {133},
+	number={28},
+	year = {2018}
+}
+
+@article{Parand2018_2,
+	author = {K. Parand and S. Latifi and M. M. Moayeri and M. Delkhosh},
+	title ={Generalized {L}agrange {J}acobi {G}auss-{L}obatto ({GLJGL}) Collocation Method for Solving Linear
+and Nonlinear {F}okker-{P}lanck Equations },
+	journal={Commun Theor Phys. }, 
+	volume = {69},
+	pages = {519--531},
+	year = {2018}
+}
+
+@article{Latifi2020,
+	author = {S. Latifi and M. Delkhosh },
+	title ={Generalized {L}agrange {J}acobi‐{G}auss‐{L}obatto vs {J}acobi‐{G}auss‐{L}obatto collocation approximations for solving (2 + 1)‐dimensional {S}ine‐{G}ordon equations },
+	journal={Math Meth Appl Sci.}, 
+	volume = {43},
+	number={4},
+	pages = {2001--2019},
+	year = {2020}
+}
+
+@article{Moayeri2020,
+	author = {M. M. Moayeri and A. Hadian-Rasanan and S. Latifi and K. Parand and  J. A. Rad},
+	title ={An efficient space-splitting method for simulating brain neurons by neuronal synchronization to control epileptic activity},
+	journal={Eng Comput.}, 
+	doi={https://doi.org/10.1007/s00366-020-01086-9},
+	year = {2020}
+}
+%%%%%%%%%%%%% Meshfree Refs %%%%%%%%%%%%%%%% 
+
+@article{safdari2018radial,
+  title={Radial basis function methods for the {R}osenau equation and other higher order {PDE}s},
+  author={A. Safdari-Vaighani and E. Larsson and A. Heryudono},
+  journal={J Sci Comput.},
+  volume={75},
+  number={3},
+  pages={1555--1580},
+  year={2018}
+}
+
+@article{dehghan2019error,
+  title={Error analysis and numerical simulation of magnetohydrodynamics ({MHD}) equation based on the interpolating element free {G}alerkin ({IEFG}) method},
+  author={M. Dehghan and M. Abbaszadeh},
+  journal={Appl Numer Math.},
+  volume={137},
+  pages={252--273},
+  year={2019}
+}
+
+@article{assari2019meshless,
+  title={A meshless local discrete {G}alerkin ({MLDG}) scheme for numerically solving two-dimensional nonlinear {V}olterra integral equations},
+  author={P. Assari and M. Dehghan},
+  journal={Appl Math Comput.},
+  volume={350},
+  pages={249--265},
+  year={2019}
+}
+@article{jafarabadi2018numerical,
+  title={Numerical simulation of nonlinear coupled {B}urgers’ equation through meshless radial point interpolation method},
+  author={A. Jafarabadi and E. Shivanian},
+  journal={Eng Anal Bound Elem.},
+  volume={95},
+  pages={187--199},
+  year={2018}
+}
+
+@article{shivanian2018spectral,
+  title={The spectral meshless radial point interpolation method for solving an inverse source problem of the time-fractional diffusion equation},
+  author={E. Shivanian and A. Jafarabadi},
+  journal={Appl Numer Math.},
+  volume={129},
+  pages={1--25},
+  year={2018}
+}
+
+@article{shivanian2018improved,
+  title={An improved meshless algorithm for a kind of fractional cable problem with error estimate},
+  author={E. Shivanian and A. Jafarabadi},
+  journal={Chaos Solitons Fractals.},
+  volume={110},
+  pages={138--151},
+  year={2018}
+}
+@book{fasshauer2007meshfree,
+  title={Meshfree approximation methods with {MATLAB}},
+  author={G. E. Fasshauer},
+  volume={6},
+  year={2007},
+  publisher={World Scientific}
+}
+
+@article{fasshauer2005rbf,
+  title={RBF collocation methods as pseudospectral methods},
+  author={Fasshauer, GE},
+  journal={WIT Trans Modelling Simul.},
+  volume={39},
+  year={2005}
+}
+
+@article{sarra2005adaptive,
+  title={Adaptive radial basis function methods for time dependent partial differential equations},
+  author={S. A. Sarra},
+  journal={Appl Numer Math.},
+  volume={54},
+  number={1},
+  pages={79--94},
+  year={2005}
+}
+@article{shcherbakov2016radial,
+  title={Radial basis function partition of unity methods for pricing vanilla basket options},
+  author={V. Shcherbakov and E. Larsson},
+  journal={Comput Math Appl.},
+  volume={71},
+  number={1},
+  pages={185--200},
+  year={2016}
+}
+
+@article{safdari2015radial,
+  title={A radial basis function partition of unity collocation method for convection--diffusion equations arising in financial applications},
+  author={A. Safdari-Vaighani and A. Heryudono and E. Larsson},
+  journal={J Sci Comput.},
+  volume={64},
+  number={2},
+  pages={341--367},
+  year={2015}
+}
+
+@article{sarler2015local,
+  title={Local radial basis function collocation method for linear thermoelasticity in two dimensions},
+  author={B. Sarler and N. Massarotti and P. Nithiarasu and B. Mavri{\v{c}} and B. {\v{S}}arler},
+  journal={Int J Numer Method H.},
+  year={2015}
+}
+
+@article{rad2018forward,
+  title={Forward deterministic pricing of options using {G}aussian radial basis functions},
+  author={J. A. Rad and J. H{\"o}{\"o}k and E. Larsson and L. Von Sydow},
+  journal={J Comput Sci.},
+  volume={24},
+  pages={209--217},
+  year={2018}
+}
+@article{wendland1995piecewise,
+  title={Piecewise polynomial, positive definite and compactly supported radial functions of minimal degree},
+  author={H. Wendland},
+  journal={Adv Comput Math.},
+  volume={4},
+  number={1},
+  pages={389--396},
+  year={1995}
+}
+
+@inproceedings{tolstykh2000using,
+  title={On using RBF-based differencing formulas for unstructured and mixed structured-unstructured grid calculations},
+  author={A. I. Tolstykh},
+  booktitle={Proceedings of the 16th IMACS world congress},
+  volume={228},
+  pages={4606--4624},
+  year={2000},
+  organization={Lausanne}
+}
+@article{flyer2016role,
+  title={On the role of polynomials in {RBF-FD} approximations: {I}. {I}nterpolation and accuracy},
+  author={N. Flyer and B. Fornberg and V. Bayona and G. A. Barnett},
+  journal={J Comput Phys.},
+  volume={321},
+  pages={21--38},
+  year={2016}
+}
+@article{fornberg2013stable,
+  title={Stable calculation of {G}aussian-based {RBF-FD} stencils},
+  author={B. Fornberg and E. Lehto and C. Powell},
+  journal={Comput Math Appl.},
+  volume={65},
+  number={4},
+  pages={627--637},
+  year={2013}
+}
+
+@article{bayona2010rbf,
+  title={RBF-FD formulas and convergence properties},
+  author={V. Bayona and M. Moscoso and M. Carretero and M. Kindelan},
+  journal={J Comput Phys.},
+  volume={229},
+  number={22},
+  pages={8281--8295},
+  year={2010}
+  }
+
+@article{bayona2012gaussian,
+  title={Gaussian {RBF-FD} weights and its corresponding local truncation errors},
+  author={V. Bayona and M. Moscoso and M. Kindelan},
+  journal={Eng Anal Bound Elem.},
+  volume={36},
+  number={9},
+  pages={1361--1369},
+  year={2012}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Wilson2014,
+	title={Optimal Chaotic Desynchronization for Neural Populations},
+	author={D. Wlison and J. Moehlis},
+	journal={SIAM J Appl Dyn Syst.},
+	volume={13},
+	number={1},
+	pages={276--305},
+	year={2014}
+}
+
+@article{Best1979,
+	title={Efficient simulation of the von {M}ises distribution},
+	author={D. Best and N. Fisher},
+	journal={J R Stat Soc Ser C Appl Stat.},
+	volume={28},
+	number={2},
+	pages={152--157},
+	year={1979}
+}
+
+@article{Hodgkin1952,
+	title={A quantitative description of membrane current and its application to conduction and excitation in nerve},
+	author={A. L. Hodgkin and A. F. Huxley},
+	journal={J Physiol.},
+	volume={117},
+	number={4},
+	pages={500--544},
+	year={1952}
+}
+
+@book{Izhikevich,
+	author = {E. M. Izhikevich},
+	title ={Dynamical Systems in Neuroscience},
+	publisher = {MIT Press}, 
+	year = {2007}
+}
+
+@article{Izhikevich2006,
+	title={Fitz{H}ugh-{N}agumo model},
+	author={E. M. Izhikevich and R. Fitzhugh},
+	journal={Scholarpedia},
+	volume={1},
+	number={9},
+	pages={1349},
+	year={2006}
+}
+
+@article{Hindmarsh1989,
+	title={The assembly of ionic currents in a thalamic neuron {I}. {T}he three-dimensional model},
+	author={R. Rose and J. Hindmarsh},
+	journal={Proc R Soc Lond B.},
+	volume={237},
+	number={},
+	pages={267--288},
+	year={1989}
+}
+
+@article{Hindmarsh1984,
+	title={A model of neuronal bursting using three coupled first order differential equations},
+	author={J. Hindmarsh  and R. Rose},
+	journal={Proc R Soc Lond B.},
+	volume={221},
+	number={1222},
+	pages={87--102},
+	year={1984}
+}
+
+@article{Rubin2004,
+	title={High frequency stimulation of the subthalamic nucleus eliminates pathological thalamic rhythmicity in a computational model},
+	author={J. Rubin and D. Terman},
+	journal={J Comput Neurosci.},
+	volume={16},
+	number={3},
+	pages={211--235},
+	year={2004},
+	publisher={}
+}

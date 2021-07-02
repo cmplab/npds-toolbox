@@ -1,0 +1,8 @@
+sphinx>=1.7
+sphinxcontrib-katex>=0.1.6
+sphinx_rtd_theme
+sphinxcontrib-bibtex<2.0.0
+numpy
+scipy
+matplotlib>=1.5
+sfs==0.5.*
