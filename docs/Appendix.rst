@@ -83,12 +83,23 @@ In this section we provide a summary about the task of each file in the toolbox 
 As you can see, NPDS Toolbox contains more than 50 functions. We provide a diagram (See Figure :numref:`Arch`) to display the architecture of the toolbox functions and relations between them. In this figure, the sources of graphical user interface files are represented by rectangles. We have two main part i.e :math:`\texttt{NPDSLab.m}` and :math:`\texttt{NeuronDynamic.m}`. These files are the main parts of the toolbox, which are represented by two diamonds and can be run from the command line directly. Moreover, :math:`\texttt{About.m}` can be run from the command line, but it is not one of the main files of the toolbox and just gives a brief overview of the toolbox. This file is shown by a diamond in the figure. There are some main functions. These functions call the other functions to do their task correctly. On the other hand, regular functions are called by the main ones and these functions do not need to call other functions. These two types of functions are displayed by two ellipses and one ellipse, respectively. Some functions invoke simple functions defined inside the same file. Simple functions are shown by the ellipse dotted line. A diamond inside a rectangle expresses a static file that creates a user-defined function file when the user intends to define a new function. Finally, the cloud-like shape is :math:`\texttt{PARAMETER\_GUIDE.md}` file which is a guide for model parameters.
 
 
-.. figure:: ./Pictures/Arch.png
-   :name: Arch
-   :width: 200
-   :height: 100
-   :align: center
+.. only:: html
+
+    .. figure:: ./Pictures/Arch.png
+        :name: Arch
+        :width: 200
+        :height: 100
+        :align: center
    
-   The architecture of NPDS Toolbox (Click on the image to see it in the actual size)
+        The architecture of NPDS Toolbox (Click on the image to see it in the actual size)
+   
+.. only:: latex
+
+    .. figure:: ./Pictures/Arch.png
+        :name: Arch
+        :scale: 80 %
+        :align: center
+        
+        The architecture of NPDS Toolbox
    
  
