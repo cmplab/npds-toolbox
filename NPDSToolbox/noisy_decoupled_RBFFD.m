@@ -1,0 +1,116 @@
+%%% THE RADIAL BASIS FUNCTION GENERATED FINITE DIFFERENCE METHOD
+%%%  FOR SOLVING THE DE-COUPLED MODEL FOR A POPULATION OF NEURONS WITH WHITE NOISE
+% NPDSToolbox version 1.0.0
+% handles    Structure with handles and user data (see GUIDATA)
+% M          Number of time steps
+% flag		 (On/Off) Showing plots
+
+%---- Outputs -----
+% phi 		  Current distibution
+% L2		  The error calculated between the current distribution and the final distribution in the past time steps
+% thetas      Phase position of the population of uncoupled neurons
+% u			  Vlaue of control function
+% sim_time    Descrete simulation time
+% domain	  Spatial domain points (between 0 and 2*pi)
+
+% For more information about the numerical approach, see the package
+% documentaion
+% Link : www.CMPLAB.com
+
+
+function [phi,L2,thetas,u,sim_time,domain]=noisy_decoupled_RBFFD(handles,M,flag)
+contents = get(handles.popupm_Init_Dist,'String');
+val = contents{get(handles.popupm_Init_Dist,'Value')};
+contents = get(handles.popup_Final_Dist,'String');
+val2 = contents{get(handles.popup_Final_Dist,'Value')};
+
+contents = get(handles.Popup_PRC,'String');
+model = contents{get(handles.Popup_PRC,'Value')};
+
+population=str2double(get(handles.Edit_Pop,'string'));
+T=str2double(get(handles.Edit_Oscillator_Period,'string'));
+duration=str2double(get(handles.Edit_FinalT,'string'));
+D=str2double(get(handles.Edit_Intensity,'string'));
+
+omega=(2*pi)/T;
+dt=T/M;
+S=duration*M;
+
+N=150;
+domain=linspace(0,2*pi,N);
+
+load('Matrices\RBFFDmatrices.mat');
+
+%PRC function and its derivative
+[Z,Zp]=PRC_function(model,'RBFFD',domain);
+
+
+%Initial condition
+[phi(1,:),dphi(1,:)]=dist_def(val,str2double(get(handles.Edit_Mean_Initial_Dist,'string')),str2num(get(handles.Edit_Varience_Initial_Dist,'string')),omega,0,dt,domain);
+peak1=max(phi(1,:));
+
+%Desired distribution
+[phif(1,:),dphif(1,:)]=dist_def(val2,str2double(get(handles.Edit_Mean_Final_Dist,'string')),str2num(get(handles.Edit_Varience_Fianl_Dist,'string')),omega,0,dt,domain);
+peak2=max(phif(1,:));
+peak=max(peak1,peak2);
+
+%Control inputs
+u=zeros(S+1,1);
+sim_time=linspace(0,duration*T,S+1);
+
+%L_2 norms
+L2=zeros(S+1,1);
+L2(1)=trapz(domain,(phi(1,:)-phif(1,:)).^2);
+
+%Initial oscillators
+thetas=zeros(S,population);
+th=linspace(0,2*pi,100);
+thetas(1,:)=(init_tetha(population,phi(1,:),N,domain))';
+
+STB=((2*D/(2*pi))*trapz(domain,(Z.^2)))/2;
+
+%Process type report
+report_main(handles,str2num(get(handles.Edit_Mean_Initial_Dist,'string')),str2num(get(handles.Edit_Varience_Initial_Dist,'string')),omega,0,dt,domain);
+
+for i=1:S
+    A1=w+dt*(omega*wd+u(i)*diag(Zp)*w+u(i)*diag(Z)*wd-STB*wdd);
+    B1=phi(i,:);
+    A2=w(1,:)-w(N,:);
+    B2=0;
+    A3=wd(1,:)-wdd(N,:);
+    B3=0;
+    A=[A1;A2;A3];
+    B=[B1,B2,B3];
+    phi(i+1,:)=A\B';
+    
+    dphi(i+1,:)=wd*phi(i+1,:)';
+    [phif(i+1,:),dphif(i+1,:)]=dist_def(val2,str2num(get(handles.Edit_Mean_Final_Dist,'string')),str2num(get(handles.Edit_Varience_Fianl_Dist,'string')),omega,i,dt,domain);
+    
+    L2(i+1)=trapz(domain,(phi(i+1,:)-phif(i+1,:)).^2);
+    
+    %Control input
+    u(i+1)=noisy_control_input(handles,domain,Z,Zp,L2,STB,omega,i,dt,phi(i,:),phif(i,:),dphi(i,:),dphif(i,:));
+    
+    %Phase of oscillator after applying the control iput
+    thetas(i+1,:)=RK_stoc(thetas(i,:),u(i+1),T,dt,D,model,'RBF');
+    
+    if(flag)
+        Output_plots(handles,peak,duration*T,domain,phi(i,:),phif(i,:),sim_time(1:i),u(1:i),L2(1:i),cos(thetas(i,:)),sin(thetas(i,:)),cos(th),sin(th));
+        
+        
+        if abs(trapz(domain,phi(i,:))-1)>2
+            errordlg('Method is unstable','Unstablity Error');
+            break;
+        end
+        if ~get(handles.Start_button, 'userdata') % stop condition
+            break;
+        end
+        
+        if get(handles.Pause_button, 'userdata') % pause condition
+            while get(handles.Pause_button, 'userdata')
+                pause(0.1)
+            end
+        end
+    end
+end
+report_last(handles.Text_result,sim_time,u',L2,thetas,phi,i);
