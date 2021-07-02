@@ -23,7 +23,7 @@ If you want to load NPDS every time you start MATLAB, type edit startup and appe
 
 How to use the GUI
 ~~~~~~~~~~~~~~~~~
-The graphical user interface (see :numref:`main_window`) is loaded by running `NPDSToolbox.m <https://github.com/mahdimyr/NPDS/master/matlab_code/NPDSToolbox.m>`_ file.  Now, the user can change the options from the panels and start the simulation.  So, run the following Matlab script:
+The graphical user interface (see :numref:`main_window`) is loaded by running `NPDSToolbox.m <https://github.com/cmplab/npds-toolbox/master/matlab_code/NPDSToolbox.m>`_ file.  Now, the user can change the options from the panels and start the simulation.  So, run the following Matlab script:
 
 .. code-block:: matlab
 
