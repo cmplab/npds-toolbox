@@ -44,9 +44,9 @@ Documentation: https://npds.readthedocs.io
 
 Mailing list: https://groups.google.com/forum/#!forum/npds-users
 
-Source code: https://github.com/amanirad/NPDS
+Source code: https://github.com/cmplab/npds-toolbox
 
-Bug report:  https://github.com/amanirad/NPDS/issues
+Bug report:  https://github.com/cmplab/npds-toolbox/issues
 
 Documentation as a pdf file: https://media.readthedocs.org/pdf/npds/latest/npds.pdf
 
@@ -54,15 +54,15 @@ Maintainer:  Mohammad Mahdi Moayeri, [mahdi.myr@gmail.com]; MohammadHemami, [gas
 
 Organization:   `Shahid Beheshti University`_
 
-.. _Shahid Beheshti University: http:/sbu.ac.ir
+.. _Shahid Beheshti University: http://en.sbu.ac.ir/SitePages/Home.aspx
 
 Copyright:  This document has been placed in the public domain.
 
-License:  NPDS is released under the ?  license.
+License:  NPDS is released under the BSD 3-Clause license.
 
-Version:  0.1
+Version:  1.0
 
-Date:  March 29, 2021
+Date:  July 10, 2021
 
 Contributors
 ------
@@ -78,9 +78,9 @@ We thank `MahmoudReza Afra <https://www.linkedin.com/in/mrezaafra/>`_ who design
 
 Download
 ------
-`Source code is hosted at Github <https://github.com/mahdimyr/Testdoc>`_.
+`Source code is hosted at Github <https://github.com/cmplab/npds-toolbox>`_.
 
-`Download source code as a .zip file <https://github.com/mahdimyr/NIMS/Testdoc/master.zip>`_.
+`Download source code as a .zip file <https://github.com/cmplab/npds-toolbox/master.zip>`_.
 
 `Download the documentation as a pdf file <https://media.readthedocs.org/pdf/npds/latest/npds.pdf>`_.
 
