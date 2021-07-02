@@ -14,4 +14,5 @@ The latest documentation can be found here: https://npds.readthedocs.io/
 
 ## Cite
 
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.5060339.svg)](https://zenodo.org/record/5060339#.YN8Cc6gzZnI)
 
