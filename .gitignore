@@ -1,13 +1,4 @@
-# matlab autosave
-*.asv
-*.mat
-
-# python, also see https://github.com/github/gitignore/blob/master/Python.gitignore
+_build/
+*.pdf
+*.png
 *.pyc
-
-# sphinx documentation builds
-doc/_build
-
-# ppt for pictures
-*.pptx
-*.ppt
