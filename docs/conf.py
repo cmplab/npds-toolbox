@@ -11,8 +11,8 @@ import sphinxcontrib.katex as katex
 
 # Allow import/extensions from current path
 sys.path.insert(0, os.path.abspath('.'))
-from definitions import acronyms      # This includes things like |HRTF|
-from definitions import latex_macros  # Math definitions like \x
+from doc/definitions import acronyms      # This includes things like |HRTF|
+from doc/definitions import latex_macros  # Math definitions like \x
 
 
 # -- GENERAL -------------------------------------------------------------
