@@ -1,6 +1,13 @@
-*.egg-info/
-.DS_Store
-.ipynb_checkpoints/
-__pycache__/
-dist/
-build/
+# matlab autosave
+*.asv
+*.mat
+
+# python, also see https://github.com/github/gitignore/blob/master/Python.gitignore
+*.pyc
+
+# sphinx documentation builds
+doc/_build
+
+# ppt for pictures
+*.pptx
+*.ppt
