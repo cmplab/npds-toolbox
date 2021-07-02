@@ -8,7 +8,7 @@ Mohammad Mahdi Moayeri, Mohammad Hemami, Jamal Amani Rad, Kourosh Parand
 
 Welcome to NPDS’s documentation!
 ------
-NPDS  Toolbox  is  an  open-source  MATLAB  toolbox  for  implementing  phasedistribution controls on different noise-free or noisy neural oscillator populations in order to desynchronize/synchronize them.  This toolbox has a graphical userinterface which is designed using GUIDE in MATLAB.  This toolbox is useful forresearchers  who  want  to  study  the  theoretical  aspects  of  neural  dynamics  ordesigning  distribution  controls  for  neural  populations.   This  Matlab  toolbox currently has the the following capabilities:
+NPDS  Toolbox  is  an  open-source  MATLAB  toolbox  for  implementing  phase distribution controls on different noise-free or noisy neural oscillator populations in order to desynchronize/synchronize them.  This toolbox has a graphical userinterface which is designed using GUIDE in MATLAB.  This toolbox is useful for researchers who want to study the theoretical aspects of neural  dynamics  ordesigning  distribution controls for neural populations. This Matlab toolbox currently has the the following capabilities:
 
 - Simulating the controlling the neural oscillators synchronization by phase distribution controls without any programming efforts.
 - Using the proportional control, bang-bang or user-defined control inputs.
