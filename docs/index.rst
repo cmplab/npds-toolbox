@@ -83,7 +83,7 @@ Download
 ------
 `Source code is hosted at Github <https://github.com/cmplab/npds-toolbox>`_.
 
-`Download source code as a .zip file <https://github.com/cmplab/npds-toolbox/master.zip>`_.
+`Download source code as a .zip file <https://github.com/cmplab/npds-toolbox/archive/refs/heads/main.zip>`_.
 
 `Download the documentation as a pdf file <https://media.readthedocs.org/pdf/npds/latest/npds.pdf>`_.
 
