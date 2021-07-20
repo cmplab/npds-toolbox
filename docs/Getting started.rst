@@ -36,7 +36,7 @@ The graphical user interface (see :numref:`main_window`) is loaded by running `N
 
 .. code-block:: matlab
 
-   run NPDSToolbox.m
+   run NPDS_Toolbox.m
    
 .. figure:: ./Pictures/Main1.png
    :name: main_window
