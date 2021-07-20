@@ -14,8 +14,8 @@ This toolbox has been tested with MATLAB versions R2016, although we expect it t
 
 .. code-block:: matlab
 
-    addpath npdstoolbox2021
-    addpath npdstoolbox2021\matrices
+    addpath npdstoolbox
+    addpath npdstoolbox\matrices
     
 If you want to load NPDS every time you start MATLAB, type edit startup and append the above line to the end of this file.  
 
