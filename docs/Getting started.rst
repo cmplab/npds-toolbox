@@ -10,12 +10,21 @@ You  need  only  a  basic  installation  of  Matlab  version  R2016  or  newer  
 
 Installation
 ~~~~~~~~~~~~~~~~~
-This toolbox has been tested with MATLAB versions R2016, although we expect it to work with older or newer versions.  Operating systems used during testing were windows 10. To  install  the  MATLAB  toolbox  simply  download  and  unzip  the  GitHub toolbox  into  an  appropriate  location.   Now,  the  main  directories  of  the  toolbox  and  numerical  methods  matrices  should  be  added  to  the  MATLAB  with "addpath" command to install the toolbox.  Note that the toolbox can be uninstalled by simply deleting its directory. So we can run the following in MATLAB:
+This toolbox has been tested with MATLAB versions R2016, although we expect it to work with older or newer versions.  Operating systems used during testing were windows 10. To  install  the  MATLAB  toolbox  simply  download  and  unzip  the  GitHub toolbox  into  an  appropriate  location.   Now,  the  main  directories  of  the  toolbox  and  numerical  methods  matrices  should  be  added  to  the  MATLAB  with "addpath" and "cd" commands to install the toolbox.  Note that the toolbox can be uninstalled by simply deleting its directory. So we can run the following in MATLAB:
 
 .. code-block:: matlab
 
-    addpath npdstoolbox
-    addpath npdstoolbox\matrices
+    addpath 'npdstoolbox directory'
+    addpath 'npdstoolbox directory'\matrices
+    cd 'npdstoolbox directory'
+    
+Where :math:`\texttt{'npdstoolbox directory'}` is the directory of the dowloaded file. For instance:
+
+.. code-block:: matlab
+
+    addpath C:\Users\MyPC\Desktop\npds-toolbox-main\NPDSToolbox
+    addpath C:\Users\MyPC\Desktop\npds-toolbox-main\NPDSToolbox\matrices
+    cd C:\Users\MyPC\Desktop\npds-toolbox-main\NPDSToolbox
     
 If you want to load NPDS every time you start MATLAB, type edit startup and append the above line to the end of this file.  
 
