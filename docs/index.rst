@@ -72,7 +72,7 @@ How to cite
 ------
 If you used NPDS toolbox or some of its codes for your own research,  please cite us (using the Zenodo DOI below):
 
-.. image:: https://zenodo.org/badge/doi/10.5281/zenodo.5060339.svg
+.. image:: https://zenodo.org/badge/doi/10.5281/zenodo.5060339.svg!
    :target: https://zenodo.org/record/5060339#.YN8Cc6gzZnI
 
 Logo
