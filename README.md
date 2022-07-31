@@ -10,7 +10,7 @@ This toolbox was developed by **[Mohammad Mahdi Moayeri](https://github.com/mahd
 
 ## Published Software Paper
 
-In 2022, an original software paper related to NPDS Toolbox was published in **Volume 506** of the Journal of **Neurocomputing**, which you can find here: https://www.sciencedirect.com/science/article/abs/pii/S0925231222009183/
+In 2022, the original software paper related to NPDS Toolbox was published in **Volume 506** of the Journal of **Neurocomputing**, which you can find here: https://www.sciencedirect.com/science/article/abs/pii/S0925231222009183/
 
 ## Documentation
 
