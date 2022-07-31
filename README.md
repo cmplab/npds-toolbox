@@ -8,9 +8,14 @@ NPDS  Toolbox  is  an  open-source  MATLAB  toolbox  for  implementing  **phase 
 
 This toolbox was developed by **[Mohammad Mahdi Moayeri](https://github.com/mahdimyr)** .and **[Mohammad Hemami](https://github.com/gaslakh)**.  It is part of ongoing scientific work at Shahid Beheshti University, in collaboration with **[Dr. Jamal Amani Rad](https://github.com/amanirad)** and **Professor Kourosh Parand**.
 
+## Published Software Paper
+
+In 2022, an article on toolbox familiarization and examples was published in Journal of Neurocomputing Volume 506, which you can find here: https://www.sciencedirect.com/science/article/abs/pii/S0925231222009183/
+
 ## Documentation
 
 The latest documentation can be found here: https://npds.readthedocs.io/
+
 
 ## Cite
 
