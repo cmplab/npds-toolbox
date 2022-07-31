@@ -72,7 +72,7 @@ How to cite
 ------
 If you used NPDS toolbox or some of its codes for your own research,  please cite us (using the published paper DOI below):
 
-.. https://doi.org/10.1016/j.neucom.2022.07.060
+<https://doi.org/10.1016/j.neucom.2022.07.060>
 
 or zenood DOI below:
 
