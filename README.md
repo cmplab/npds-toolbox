@@ -14,7 +14,7 @@ The latest documentation can be found here: https://npds.readthedocs.io/
 
 ## Cite
 
-**[Link to Journal paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222009183)
+**[Link to Journal paper: https://www.sciencedirect.com/science/article/abs/pii/S0925231222009183 ](https://www.sciencedirect.com/science/article/abs/pii/S0925231222009183)
 
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.5060339.svg)](https://zenodo.org/record/5060339#.YN8Cc6gzZnI)
 
