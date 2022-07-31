@@ -101,6 +101,10 @@ If you have problems installing the software or questions about usage and docume
 
 References
 ------
+- `M. M. Moayeri, M. Hemami, J. A. Rad, K. Parand, "NPDS toolbox: Neural population (De) synchronization toolbox for MATLAB", Neurocomputing, 506 (2022), 206-212. <https://www.sciencedirect.com/science/article/abs/pii/S0925231222009183>`_
+
+- `M. Hemami, J. A. Rad, K. Parand, "Phase distribution control of neural oscillator populations using local radial basis function meshfree technique with application in epileptic seizures: A numerical simulation approach", Communications in Nonlinear Science and Numerical Simulation, 103 (2021), 105961. <https://www.sciencedirect.com/science/article/abs/pii/S1007570421002732>`_
+
 - `M. M. Moayeri, J. A. Rad, K. Parand, "Desynchronization of stochastically synchronized neural populations through phase distribution control: a numerical simulation approach", Nonlinear Dyn., 104 (2021), 2363-2388. <https://link.springer.com/article/10.1007/s11071-021-06408-0>`_
 
 - `B. Monga and J. Moehlis, "Phase distribution control of a population of oscillators", Physica D., 398 (2019), 115-129. <https://www.sciencedirect.com/science/article/abs/pii/S0167278918303543>`_
